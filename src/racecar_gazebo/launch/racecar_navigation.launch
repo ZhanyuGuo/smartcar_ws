@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- 启动racecar -->
+  <include file="$(find racecar_gazebo)/launch/racecar.launch"></include>
+  
+  <!-- 加载建好的图 -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find racecar_gazebo)/map/test_map.yaml" />
+
+  <!-- 启动move_base -->
+  <param name="/use_sim_time" value="true"/>
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find racecar_gazebo)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find racecar_gazebo)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find racecar_gazebo)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find racecar_gazebo)/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find racecar_gazebo)/config/teb_local_planner_params.yaml" command="load" />
+
+    <param name="base_global_planner" value="global_planner/GlobalPlanner" />
+    <param name="planner_frequency" value="2.0" />
+    <param name="planner_patience" value="5.0" />
+    <!--param name="use_dijkstra" value="false" /-->
+    
+    <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+    <param name="controller_frequency" value="20.0" />
+    <param name="controller_patience" value="15.0" />
+
+    <param name="clearing_rotation_allowed" value="false" />
+  </node>
+  
+  <!-- 启动rviz -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find racecar_gazebo)/config/racecar_rviz.rviz" />
+
+  <!-- 启动导航速度到车传输程序 -->
+  <node pkg="racecar_gazebo" type="navigation.py" name="my_navigation_cmd" output="screen" />
+
+  <!-- node pkg="racecar_gazebo" type="start_point_start_race.py" name="start_point_start_race" output="screen" / -->
+  <!-- 多目标传输程序 -->
+  <!-- node pkg="racecar_gazebo" type="goal_sub_pub_beta_4.1.py" name="goal_sub_pub_node" output="screen" /-->
+</launch>

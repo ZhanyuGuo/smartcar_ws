@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Map_Server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find racecar_gazebo)/map/test_map.yaml" />
+
+  <!-- rviz -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find racecar_gazebo)/config/save_pose.rviz" />
+
+  <!-- Save_script -->
+  <node pkg="racecar_gazebo" type="pose_save.py" name="pose_save" output="screen" />
+</launch>

@@ -1,0 +1,5 @@
+system/waypoint_logger
+/home/gzy/smartcar_ws/devel/.private/waypoint_logger/cmake.lock /home/gzy/smartcar_ws/devel/./cmake.lock
+/home/gzy/smartcar_ws/devel/.private/waypoint_logger/share/waypoint_logger/cmake/waypoint_loggerConfig-version.cmake /home/gzy/smartcar_ws/devel/share/waypoint_logger/cmake/waypoint_loggerConfig-version.cmake
+/home/gzy/smartcar_ws/devel/.private/waypoint_logger/share/waypoint_logger/cmake/waypoint_loggerConfig.cmake /home/gzy/smartcar_ws/devel/share/waypoint_logger/cmake/waypoint_loggerConfig.cmake
+/home/gzy/smartcar_ws/devel/.private/waypoint_logger/lib/pkgconfig/waypoint_logger.pc /home/gzy/smartcar_ws/devel/lib/pkgconfig/waypoint_logger.pc
