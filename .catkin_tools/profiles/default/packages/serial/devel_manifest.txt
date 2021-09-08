@@ -1,7 +1,0 @@
-system/serial
-/home/gzy/smartcar_ws/devel/.private/serial/cmake.lock /home/gzy/smartcar_ws/devel/./cmake.lock
-/home/gzy/smartcar_ws/devel/.private/serial/share/serial/cmake/serialConfig-version.cmake /home/gzy/smartcar_ws/devel/share/serial/cmake/serialConfig-version.cmake
-/home/gzy/smartcar_ws/devel/.private/serial/share/serial/cmake/serialConfig.cmake /home/gzy/smartcar_ws/devel/share/serial/cmake/serialConfig.cmake
-/home/gzy/smartcar_ws/devel/.private/serial/lib/libserial.so /home/gzy/smartcar_ws/devel/lib/libserial.so
-/home/gzy/smartcar_ws/devel/.private/serial/lib/pkgconfig/serial.pc /home/gzy/smartcar_ws/devel/lib/pkgconfig/serial.pc
-/home/gzy/smartcar_ws/devel/.private/serial/lib/serial/serial_example /home/gzy/smartcar_ws/devel/lib/serial/serial_example

@@ -1,7 +1,0 @@
-system/vesc/vesc_driver
-/home/gzy/smartcar_ws/devel/.private/vesc_driver/cmake.lock /home/gzy/smartcar_ws/devel/./cmake.lock
-/home/gzy/smartcar_ws/devel/.private/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake /home/gzy/smartcar_ws/devel/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
-/home/gzy/smartcar_ws/devel/.private/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake /home/gzy/smartcar_ws/devel/share/vesc_driver/cmake/vesc_driverConfig.cmake
-/home/gzy/smartcar_ws/devel/.private/vesc_driver/lib/libvesc_driver_nodelet.so /home/gzy/smartcar_ws/devel/lib/libvesc_driver_nodelet.so
-/home/gzy/smartcar_ws/devel/.private/vesc_driver/lib/pkgconfig/vesc_driver.pc /home/gzy/smartcar_ws/devel/lib/pkgconfig/vesc_driver.pc
-/home/gzy/smartcar_ws/devel/.private/vesc_driver/lib/vesc_driver/vesc_driver_node /home/gzy/smartcar_ws/devel/lib/vesc_driver/vesc_driver_node

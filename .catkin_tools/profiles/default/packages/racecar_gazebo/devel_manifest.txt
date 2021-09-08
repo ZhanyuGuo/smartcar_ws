@@ -1,5 +1,0 @@
-racecar_gazebo
-/home/gzy/smartcar_ws/devel/.private/racecar_gazebo/cmake.lock /home/gzy/smartcar_ws/devel/./cmake.lock
-/home/gzy/smartcar_ws/devel/.private/racecar_gazebo/share/racecar_gazebo/cmake/racecar_gazeboConfig.cmake /home/gzy/smartcar_ws/devel/share/racecar_gazebo/cmake/racecar_gazeboConfig.cmake
-/home/gzy/smartcar_ws/devel/.private/racecar_gazebo/share/racecar_gazebo/cmake/racecar_gazeboConfig-version.cmake /home/gzy/smartcar_ws/devel/share/racecar_gazebo/cmake/racecar_gazeboConfig-version.cmake
-/home/gzy/smartcar_ws/devel/.private/racecar_gazebo/lib/pkgconfig/racecar_gazebo.pc /home/gzy/smartcar_ws/devel/lib/pkgconfig/racecar_gazebo.pc

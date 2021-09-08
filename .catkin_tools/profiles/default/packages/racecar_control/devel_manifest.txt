@@ -1,5 +1,0 @@
-racecar_control
-/home/gzy/smartcar_ws/devel/.private/racecar_control/cmake.lock /home/gzy/smartcar_ws/devel/./cmake.lock
-/home/gzy/smartcar_ws/devel/.private/racecar_control/share/racecar_control/cmake/racecar_controlConfig.cmake /home/gzy/smartcar_ws/devel/share/racecar_control/cmake/racecar_controlConfig.cmake
-/home/gzy/smartcar_ws/devel/.private/racecar_control/share/racecar_control/cmake/racecar_controlConfig-version.cmake /home/gzy/smartcar_ws/devel/share/racecar_control/cmake/racecar_controlConfig-version.cmake
-/home/gzy/smartcar_ws/devel/.private/racecar_control/lib/pkgconfig/racecar_control.pc /home/gzy/smartcar_ws/devel/lib/pkgconfig/racecar_control.pc
