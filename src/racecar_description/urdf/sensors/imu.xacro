@@ -5,11 +5,11 @@
         <!-- Create laser reference frame -->
         <link name="${prefix}_link">
             <inertial>
-                <mass value="0.001" /> 
+                <mass value="0.001" />
                 <origin xyz="0 0 0" />
                 <inertia ixx="0.001" ixy="0.0" ixz="0.0"
-                         iyy="0.001" iyz="0.0"
-                         izz="0.001" />
+                    iyy="0.001" iyz="0.0"
+                    izz="0.001" />
             </inertial>
 
             <visual>
@@ -17,7 +17,7 @@
                 <geometry>
                     <box size="0.04 0.04 0.03" />
                 </geometry>
-                <material name="black"/>
+                <material name="tire_mat" />
             </visual>
 
             <collision>
@@ -52,4 +52,5 @@
         </gazebo>
 
     </xacro:macro>
+    <xacro:imu prefix="imu" />
 </robot>

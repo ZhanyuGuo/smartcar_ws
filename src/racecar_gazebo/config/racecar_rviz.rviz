@@ -245,33 +245,24 @@ Visualization Manager:
               base_link:
                 chassis:
                   left_battery_offset:
-                    left_battery:
-                      {}
+                    left_battery: {}
                   left_rear_axle_carrier:
-                    left_rear_wheel:
-                      {}
+                    left_rear_wheel: {}
                   left_steering_link:
                     left_front_axle_carrier:
-                      left_front_wheel:
-                        {}
+                      left_front_wheel: {}
                   platform_link:
-                    camera_link:
-                      {}
-                    imu_link:
-                      {}
+                    camera_link: {}
+                    imu_link: {}
                     lidar_platform_link:
-                      laser_link:
-                        {}
+                      laser_link: {}
                   right_battery_offset:
-                    right_battery:
-                      {}
+                    right_battery: {}
                   right_rear_axle_carrier:
-                    right_rear_wheel:
-                      {}
+                    right_rear_wheel: {}
                   right_steering_link:
                     right_front_axle_carrier:
-                      right_front_wheel:
-                        {}
+                      right_front_wheel: {}
       Update Interval: 0
       Value: true
     - Alpha: 1
