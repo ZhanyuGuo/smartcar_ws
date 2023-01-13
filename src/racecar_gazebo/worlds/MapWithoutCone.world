@@ -1681,7 +1681,7 @@
       <static>1</static>
     </model>
     <state world_name='default'>
-      <sim_time>829 218000000</sim_time>
+      <sim_time>0</sim_time>
       <real_time>45 739950388</real_time>
       <wall_time>1595382552 419697385</wall_time>
       <iterations>44976</iterations>
